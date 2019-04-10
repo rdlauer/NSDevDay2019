@@ -1,0 +1,329 @@
+{
+    "authentication": {
+        "mobile": {
+            "authenticationType": "kinvey-auth",
+            "settings": {}
+        },
+        "web": {
+            "authenticationType": "kinvey-auth",
+            "settings": {}
+        }
+    },
+    "children": [
+        {
+            "clientSideProcessing": false,
+            "excludedFields": [
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "date",
+                            "label": "Ect",
+                            "name": "ect",
+                            "required": false
+                        },
+                        {
+                            "fieldType": "date",
+                            "label": "Lmt",
+                            "name": "lmt",
+                            "required": false
+                        }
+                    ],
+                    "label": "Kmd",
+                    "name": "_kmd",
+                    "required": false
+                },
+                {
+                    "fieldType": "object",
+                    "fields": [],
+                    "label": "Acl",
+                    "name": "_acl",
+                    "required": false
+                }
+            ],
+            "fields": [
+                {
+                    "fieldType": "date",
+                    "label": "Id",
+                    "name": "_id",
+                    "required": false
+                },
+                {
+                    "fieldType": "string",
+                    "label": "Name",
+                    "name": "name",
+                    "required": false
+                },
+                {
+                    "fieldType": "date",
+                    "label": "Date",
+                    "name": "date",
+                    "required": false
+                },
+                {
+                    "fieldType": "string",
+                    "label": "Vehicle",
+                    "name": "vehicle",
+                    "required": false
+                },
+                {
+                    "fieldType": "string",
+                    "label": "Image",
+                    "name": "image",
+                    "required": false
+                },
+                {
+                    "fieldType": "string",
+                    "label": "Description",
+                    "name": "description",
+                    "required": false
+                },
+                {
+                    "fieldType": "string",
+                    "label": "Policynumber",
+                    "name": "policynumber",
+                    "required": false
+                },
+                {
+                    "fieldType": "string",
+                    "label": "Type",
+                    "name": "type",
+                    "required": false
+                },
+                {
+                    "fieldType": "string",
+                    "label": "Status",
+                    "name": "status",
+                    "required": false
+                }
+            ],
+            "name": "Claims"
+        },
+        {
+            "clientSideProcessing": false,
+            "excludedFields": [
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "string",
+                            "label": "Creator",
+                            "name": "creator",
+                            "required": false
+                        }
+                    ],
+                    "label": "Acl",
+                    "name": "_acl",
+                    "required": false
+                },
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "date",
+                            "label": "Lmt",
+                            "name": "lmt",
+                            "required": false
+                        },
+                        {
+                            "fieldType": "date",
+                            "label": "Ect",
+                            "name": "ect",
+                            "required": false
+                        }
+                    ],
+                    "label": "Kmd",
+                    "name": "_kmd",
+                    "required": false
+                }
+            ],
+            "fields": [
+                {
+                    "fieldType": "string",
+                    "label": "Id",
+                    "name": "_id",
+                    "required": false
+                },
+                {
+                    "fieldType": "string",
+                    "label": "Type",
+                    "name": "type",
+                    "required": false
+                },
+                {
+                    "fieldType": "number",
+                    "label": "Count",
+                    "name": "count",
+                    "required": false
+                }
+            ],
+            "name": "ClaimStatus"
+        },
+        {
+            "clientSideProcessing": false,
+            "excludedFields": [
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "string",
+                            "label": "Creator",
+                            "name": "creator",
+                            "required": false
+                        }
+                    ],
+                    "label": "Acl",
+                    "name": "_acl",
+                    "required": false
+                },
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "date",
+                            "label": "Lmt",
+                            "name": "lmt",
+                            "required": false
+                        },
+                        {
+                            "fieldType": "date",
+                            "label": "Ect",
+                            "name": "ect",
+                            "required": false
+                        }
+                    ],
+                    "label": "Kmd",
+                    "name": "_kmd",
+                    "required": false
+                }
+            ],
+            "fields": [
+                {
+                    "fieldType": "string",
+                    "label": "Id",
+                    "name": "_id",
+                    "required": false
+                },
+                {
+                    "fieldType": "string",
+                    "label": "Name",
+                    "name": "name",
+                    "required": false
+                },
+                {
+                    "fieldType": "date",
+                    "label": "Date",
+                    "name": "date",
+                    "required": false
+                },
+                {
+                    "fieldType": "string",
+                    "label": "Vehicle",
+                    "name": "vehicle",
+                    "required": false
+                },
+                {
+                    "fieldType": "string",
+                    "label": "Image",
+                    "name": "image",
+                    "required": false
+                },
+                {
+                    "fieldType": "string",
+                    "label": "Description",
+                    "name": "description",
+                    "required": false
+                },
+                {
+                    "fieldType": "string",
+                    "label": "Policynumber",
+                    "name": "policynumber",
+                    "required": false
+                },
+                {
+                    "fieldType": "string",
+                    "label": "Type",
+                    "name": "type",
+                    "required": false
+                }
+            ],
+            "name": "ClaimsTest"
+        },
+        {
+            "clientSideProcessing": false,
+            "excludedFields": [
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "string",
+                            "label": "Creator",
+                            "name": "creator",
+                            "required": false
+                        }
+                    ],
+                    "label": "Acl",
+                    "name": "_acl",
+                    "required": false
+                },
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "date",
+                            "label": "Lmt",
+                            "name": "lmt",
+                            "required": false
+                        },
+                        {
+                            "fieldType": "date",
+                            "label": "Ect",
+                            "name": "ect",
+                            "required": false
+                        }
+                    ],
+                    "label": "Kmd",
+                    "name": "_kmd",
+                    "required": false
+                }
+            ],
+            "fields": [
+                {
+                    "fieldType": "string",
+                    "label": "Id",
+                    "name": "_id",
+                    "required": false
+                },
+                {
+                    "fieldType": "string",
+                    "label": "Type",
+                    "name": "type",
+                    "required": false
+                },
+                {
+                    "fieldType": "number",
+                    "label": "Count",
+                    "name": "count",
+                    "required": false
+                }
+            ],
+            "name": "ClaimType"
+        }
+    ],
+    "kinveyApp": {
+        "id": "f0a740bdad9b4567a0bf0a4d3a060d56",
+        "name": "ACMEClaims"
+    },
+    "kinveyAppEnvironment": {
+        "appSecret": "a30bf7812a974909b97ddfe00020db92",
+        "id": "kid_B1aeOjYrV",
+        "instanceId": "",
+        "masterSecret": "03dca2fbddd04ae6af1be4ed8c188d85",
+        "name": "Development"
+    },
+    "name": "DefaultDataProvider",
+    "schemaVersion": "1.0",
+    "serviceUri": "https://baas.kinvey.com",
+    "type": "kinvey-data-provider",
+    "uniqueID": "f83e0dd4-885b-41bb-ab63-7826c661bbab"
+}

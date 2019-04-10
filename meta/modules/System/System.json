@@ -1,0 +1,18 @@
+{
+    "authorization": {
+        "allowedRoles": []
+    },
+    "children": [],
+    "description": "The System Module contains the App Layout, Landing Page, Login, and Unauthorized Page system views",
+    "moduleType": "system",
+    "name": "System",
+    "order": 0,
+    "schemaVersion": "1.0",
+    "thumbnail": {
+        "background": "#b2b2b2",
+        "color": "#ffffff",
+        "icon": "fa-cubes"
+    },
+    "type": "module",
+    "uniqueID": "76131e51-8a9d-4910-9244-b2a03db7c1f2"
+}

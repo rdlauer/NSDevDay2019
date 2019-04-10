@@ -1,0 +1,17 @@
+<!--
+Auto-generated
+Do not edit!!!
+-->
+<GridLayout rows="*, auto">
+    <ScrollView row="0">
+        <GridLayout class="form" [columns]="columns" [rows]="rows" #form>
+            <ng-content></ng-content>
+        </GridLayout>
+    </ScrollView>
+    <StackLayout class="form footer" row="1" orientation="horizontal">
+        <Button class="-action" *ngIf="isRootForm" [isEnabled]="!isSubmitting" text="Submit" (tap)="onSubmit()"></Button>
+        <Button *ngIf="isRootForm" [isEnabled]="!isSubmitting" text="Cancel" (tap)="onCancel()"></Button>
+    </StackLayout>
+
+    <ActivityIndicator *ngIf="isSubmitting" row="1" [busy]="true"></ActivityIndicator>
+</GridLayout>

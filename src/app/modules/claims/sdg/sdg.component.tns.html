@@ -1,0 +1,12 @@
+<!--
+Auto-generated
+Do not edit!!!
+-->
+<ActionBar title="">
+</ActionBar>
+
+<ng-container *ngIf="{ viewDataSource1: $viewDataSource1Service.dataChanges | async } as $data">
+    <StackLayout orientation="Vertical" class="custom-page">
+        <Image src="{{ $data.viewDataSource1?.image?._downloadURL || $data.viewDataSource1?.image }}" stretch="aspectFit"></Image>
+    </StackLayout>
+</ng-container>

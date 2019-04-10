@@ -1,0 +1,12 @@
+<!--
+Auto-generated
+Do not edit!!!
+-->
+<ks-top-section></ks-top-section>
+<div class="ks-modules-list-wrapper">
+    <a *ngFor="let module of $modules" class="ks-module-thumbnail" [routerLink]="module.children[0].routerLink" [title]="module.title">
+        <i class="fa {{ module.thumbnail.icon }}" [style.background]="module.thumbnail.background" [style.color]="module.thumbnail.color"></i>
+        <span title="{{ module.labelKey | translate }}">{{ module.labelKey | translate }}</span>
+    </a>
+</div>
+<ks-bottom-section></ks-bottom-section>

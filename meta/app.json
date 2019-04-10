@@ -1,0 +1,39 @@
+{
+    "authorization": {
+        "roles": []
+    },
+    "build": {
+        "debug": {
+            "baseHref": "/"
+        },
+        "release": {
+            "aot": true,
+            "baseHref": "/"
+        }
+    },
+    "children": [],
+    "defaultLangaugeCulture": "en-US",
+    "defaultLanguageLabel": "English",
+    "description": "",
+    "layout": {},
+    "mobileNavigation": [
+        {
+            "displayName": "Home",
+            "module": "System",
+            "type": "tab",
+            "view": "home"
+        }
+    ],
+    "mobileOfflineSupport": false,
+    "mobileTheme": "light",
+    "name": "NSDevDay2019",
+    "ripple": false,
+    "schemaVersion": "1.0.7",
+    "startupViewInfo": {},
+    "targetFramework": "Angular",
+    "theme": "metro",
+    "type": "app",
+    "uniqueID": "fd0cbdc8-eb31-472c-9a25-928b5bdd3447",
+    "webNavigation": [],
+    "webOfflineSupport": false
+}

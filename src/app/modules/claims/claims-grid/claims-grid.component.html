@@ -1,0 +1,58 @@
+<!--
+Auto-generated
+Do not edit!!!
+-->
+<div class="ks-data-grid">
+    <div class="row">
+        <div class="col-12">
+            <ks-top-section></ks-top-section>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <h2>{{ $config.titleKey | translate }}</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <ks-middle-section></ks-middle-section>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <ks-grid #grid [config]="$config.components.grid" [dataService]="$claimsService" [state]="$claimsService.dataState.changes | async">
+                <kendo-grid [pageable]="grid.config.pageable" [sortable]="grid.config.sortable" [filterable]="grid.config.filterable" [groupable]="grid.config.groupable"
+                    [data]="grid.dataService.dataChanges | async" [pageSize]="grid.state?.take" [skip]="grid.state?.skip" [sort]="grid.state?.sort"
+                    [filter]="grid.state?.filter" [group]="grid.state?.group" [loading]="(grid.dataService && grid.dataService.isLoading) | async"
+                    (dataStateChange)="grid.dataStateChange($event)" kendoGridSelectBy="_id" [selectedKeys]="grid.selectedKeys" [selectable]="{ mode: 'single' }"
+                    (selectionChange)="grid.selectionChange($event)" [resizable]="grid.config.resizable" [reorderable]="grid.config.reorderable">
+                    <kendo-grid-column [field]="'_id'" [filterable]="true" [filter]="'date'" [sortable]="true" [title]="'modules.Claims.views.ClaimsGrid.columns._id' | translate">
+                    </kendo-grid-column>
+                    <kendo-grid-column [field]="'name'" [filterable]="true" [filter]="'text'" [sortable]="true" [title]="'modules.Claims.views.ClaimsGrid.columns.name' | translate">
+                    </kendo-grid-column>
+                    <kendo-grid-column [field]="'date'" [filterable]="true" [filter]="'date'" [sortable]="true" [title]="'modules.Claims.views.ClaimsGrid.columns.date' | translate">
+                    </kendo-grid-column>
+                    <kendo-grid-column [field]="'vehicle'" [filterable]="true" [filter]="'text'" [sortable]="true" [title]="'modules.Claims.views.ClaimsGrid.columns.vehicle' | translate">
+                    </kendo-grid-column>
+                    <kendo-grid-column [field]="'image'" [filterable]="true" [filter]="'text'" [sortable]="true" [title]="'modules.Claims.views.ClaimsGrid.columns.image' | translate">
+                    </kendo-grid-column>
+                    <kendo-grid-column [field]="'description'" [filterable]="true" [filter]="'text'" [sortable]="true" [title]="'modules.Claims.views.ClaimsGrid.columns.description' | translate">
+                    </kendo-grid-column>
+                    <kendo-grid-column [field]="'policynumber'" [filterable]="true" [filter]="'text'" [sortable]="true" [title]="'modules.Claims.views.ClaimsGrid.columns.policynumber' | translate">
+                    </kendo-grid-column>
+                    <kendo-grid-column [field]="'type'" [filterable]="true" [filter]="'text'" [sortable]="true" [title]="'modules.Claims.views.ClaimsGrid.columns.type' | translate">
+                    </kendo-grid-column>
+                    <kendo-grid-column [field]="'status'" [filterable]="true" [filter]="'text'" [sortable]="true" [title]="'modules.Claims.views.ClaimsGrid.columns.status' | translate">
+                    </kendo-grid-column>
+                    </kendo-grid>
+            </ks-grid>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <ks-bottom-section></ks-bottom-section>
+        </div>
+    </div>
+</div>

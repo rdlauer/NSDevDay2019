@@ -1,0 +1,343 @@
+{
+    "authorization": {
+        "allowedRoles": []
+    },
+    "classList": "",
+    "columns": [
+        {
+            "componentOptions": {
+                "annotations": {
+                    "id": "componentIdentifier"
+                },
+                "events": {
+                    "onChange": ""
+                },
+                "id": "ctl0",
+                "maxDate": "2099-12-30T22:00:00.000Z",
+                "minDate": "1899-12-31T22:00:00.000Z",
+                "model": "",
+                "name": "_id",
+                "schemaVersion": "1.0",
+                "title": "Id",
+                "type": "date-picker",
+                "uniqueID": "64ff65f4-4795-46be-b5ed-885c489140ed",
+                "validation": {
+                    "required": false
+                }
+            },
+            "editable": true,
+            "encoded": true,
+            "field": "_id",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "Id"
+        },
+        {
+            "componentOptions": {
+                "annotations": {
+                    "id": "componentIdentifier"
+                },
+                "debounce": 0,
+                "defaultValue": "",
+                "events": {
+                    "onChange": ""
+                },
+                "id": "ctl1",
+                "model": "",
+                "name": "name",
+                "placeholder": "",
+                "schemaVersion": "1.0",
+                "title": "Name",
+                "type": "text-box",
+                "uniqueID": "6ed4173d-38f9-4e79-b5ba-bf415d78c4f6",
+                "validation": {
+                    "required": false
+                }
+            },
+            "editable": true,
+            "encoded": true,
+            "field": "name",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "Name"
+        },
+        {
+            "componentOptions": {
+                "annotations": {
+                    "id": "componentIdentifier"
+                },
+                "events": {
+                    "onChange": ""
+                },
+                "id": "ctl2",
+                "maxDate": "2099-12-30T22:00:00.000Z",
+                "minDate": "1899-12-31T22:00:00.000Z",
+                "model": "",
+                "name": "date",
+                "schemaVersion": "1.0",
+                "title": "Date",
+                "type": "date-picker",
+                "uniqueID": "bab324aa-0c96-4510-b245-19f47d5b494a",
+                "validation": {
+                    "required": false
+                }
+            },
+            "editable": true,
+            "encoded": true,
+            "field": "date",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "Date"
+        },
+        {
+            "componentOptions": {
+                "annotations": {
+                    "id": "componentIdentifier"
+                },
+                "debounce": 0,
+                "defaultValue": "",
+                "events": {
+                    "onChange": ""
+                },
+                "id": "ctl3",
+                "model": "",
+                "name": "vehicle",
+                "placeholder": "",
+                "schemaVersion": "1.0",
+                "title": "Vehicle",
+                "type": "text-box",
+                "uniqueID": "8d43d51f-dd1e-4bb1-aeba-949fb15b2452",
+                "validation": {
+                    "required": false
+                }
+            },
+            "editable": true,
+            "encoded": true,
+            "field": "vehicle",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "Vehicle"
+        },
+        {
+            "componentOptions": {
+                "annotations": {
+                    "id": "componentIdentifier"
+                },
+                "debounce": 0,
+                "defaultValue": "",
+                "events": {
+                    "onChange": ""
+                },
+                "id": "ctl4",
+                "model": "",
+                "name": "image",
+                "placeholder": "",
+                "schemaVersion": "1.0",
+                "title": "Image",
+                "type": "text-box",
+                "uniqueID": "26da496b-2e16-48ee-8b52-2d11677396ea",
+                "validation": {
+                    "required": false
+                }
+            },
+            "editable": true,
+            "encoded": true,
+            "field": "image",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "Image"
+        },
+        {
+            "componentOptions": {
+                "annotations": {
+                    "id": "componentIdentifier"
+                },
+                "debounce": 0,
+                "defaultValue": "",
+                "events": {
+                    "onChange": ""
+                },
+                "id": "ctl5",
+                "model": "",
+                "name": "description",
+                "placeholder": "",
+                "schemaVersion": "1.0",
+                "title": "Description",
+                "type": "text-box",
+                "uniqueID": "72ef68e7-9f28-4572-87c3-05c40c4649e6",
+                "validation": {
+                    "required": false
+                }
+            },
+            "editable": true,
+            "encoded": true,
+            "field": "description",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "Description"
+        },
+        {
+            "componentOptions": {
+                "annotations": {
+                    "id": "componentIdentifier"
+                },
+                "debounce": 0,
+                "defaultValue": "",
+                "events": {
+                    "onChange": ""
+                },
+                "id": "ctl6",
+                "model": "",
+                "name": "policynumber",
+                "placeholder": "",
+                "schemaVersion": "1.0",
+                "title": "Policynumber",
+                "type": "text-box",
+                "uniqueID": "4dbba894-0ebc-47b4-a6d0-55f5ba56c394",
+                "validation": {
+                    "required": false
+                }
+            },
+            "editable": true,
+            "encoded": true,
+            "field": "policynumber",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "Policynumber"
+        },
+        {
+            "componentOptions": {
+                "annotations": {
+                    "id": "componentIdentifier"
+                },
+                "debounce": 0,
+                "defaultValue": "",
+                "events": {
+                    "onChange": ""
+                },
+                "id": "ctl7",
+                "model": "",
+                "name": "type",
+                "placeholder": "",
+                "schemaVersion": "1.0",
+                "title": "Type",
+                "type": "text-box",
+                "uniqueID": "1f2f7bac-bfb1-42f7-b910-5ba56ea1716a",
+                "validation": {
+                    "required": false
+                }
+            },
+            "editable": true,
+            "encoded": true,
+            "field": "type",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "Type"
+        },
+        {
+            "componentOptions": {
+                "annotations": {
+                    "id": "componentIdentifier"
+                },
+                "debounce": 0,
+                "defaultValue": "",
+                "events": {
+                    "onChange": ""
+                },
+                "id": "ctl8",
+                "model": "",
+                "name": "status",
+                "placeholder": "",
+                "schemaVersion": "1.0",
+                "title": "Status",
+                "type": "text-box",
+                "uniqueID": "5bf2268e-dcc9-4194-9759-6f46275b771f",
+                "validation": {
+                    "required": false
+                }
+            },
+            "editable": true,
+            "encoded": true,
+            "field": "status",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "Status"
+        }
+    ],
+    "customSections": {
+        "bottom": "bottom-section.component.html",
+        "middle": "middle-section.component.html",
+        "top": "top-section.component.html"
+    },
+    "dataProvider": "DefaultDataProvider",
+    "dataSource": "Claims",
+    "editOptions": {
+        "allowDelete": true,
+        "allowEdit": true,
+        "allowInsert": true,
+        "batch": true,
+        "rowButtons": {
+            "canceledit": {
+                "content": "Cancel"
+            },
+            "destroy": {
+                "content": "Delete",
+                "icon": "k-icon k-i-close"
+            },
+            "edit": {
+                "content": "Edit",
+                "icon": "k-icon k-i-edit"
+            },
+            "update": {
+                "content": "Update"
+            }
+        },
+        "toolbarButtons": {
+            "cancel": {
+                "content": "Cancel changes",
+                "icon": "k-icon k-i-cancel"
+            },
+            "create": {
+                "content": "New",
+                "icon": "k-icon k-i-add"
+            },
+            "save": {
+                "content": "Save changes",
+                "icon": "k-icon k-i-checkmark"
+            }
+        }
+    },
+    "editable": "ReadOnly",
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "onRowCreate": "",
+        "onRowDelete": "",
+        "onRowSelect": "onRowSelect",
+        "onRowUpdate": "",
+        "showEventHandler": "onShow"
+    },
+    "filterable": false,
+    "groupable": false,
+    "hidden": false,
+    "name": "ClaimsGrid",
+    "pageSize": 20,
+    "platform": "web",
+    "reorderable": false,
+    "resizable": false,
+    "schemaVersion": "1.0",
+    "sortable": false,
+    "title": "<Title>",
+    "type": "view",
+    "uniqueID": "7a3428a2-88d8-43e9-9afa-3e568fb77f46",
+    "viewType": "data-grid"
+}
