@@ -118,6 +118,12 @@
               "placeholder": ""
             }
           }
+        },
+        "MobileListView-form": {
+          "label": "MobileListView-form"
+        },
+        "MobileListView": {
+          "label": "MobileListView"
         }
       }
     },

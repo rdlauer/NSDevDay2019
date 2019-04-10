@@ -22,6 +22,12 @@
             "module": "System",
             "type": "tab",
             "view": "home"
+        },
+        {
+            "displayName": "MobileListView",
+            "module": "Claims",
+            "type": "tab",
+            "view": "MobileListView"
         }
     ],
     "mobileOfflineSupport": false,

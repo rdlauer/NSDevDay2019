@@ -1,0 +1,36 @@
+<!--
+Auto-generated
+Do not edit!!!
+-->
+<ActionBar title="">
+    <ActionItem ios.position="right">
+        <StackLayout>
+            <ks-navigation-label text="New" [tapArgs]=""></ks-navigation-label>
+        </StackLayout>
+    </ActionItem>
+</ActionBar>
+
+<GridLayout rows="*">
+    <ks-list-view #listView [dataService]="$claimsService" [navigateOnItemTap]="$config.listView.navigateOnItemTap">
+        <RadListView class="-single-col-cards" row="1" *ngIf="(listView.dataService.dataChanges | async) as items; else loading" [items]="items" pullToRefresh="true"
+            (pullToRefreshInitiated)="listView.onPullToRefreshInitiated($event)" loadOnDemandMode="Manual" (loadMoreDataRequested)="listView.onLoadMoreDataRequested($event)"
+            (itemTap)="listView.onItemTap($event)" swipeActions="false">
+
+
+            <ng-template let-item="item">
+                <StackLayout orientation="vertical" class="-separator">
+                    <Image src="{{  item.image ?._downloadURL ||  item.image  }}"></Image>
+                    <StackLayout>
+                        <Label text="{{ item.vehicle }}" class="-data-label"></Label>
+                        <Label text="{{ item.name }}" class="-data-label"></Label>
+                    </StackLayout>
+                </StackLayout>
+            </ng-template>
+
+
+            </RadListView>
+            <ng-template #loading>
+                <ActivityIndicator row="1" [busy]="true"></ActivityIndicator>
+            </ng-template>
+    </ks-list-view>
+</GridLayout>

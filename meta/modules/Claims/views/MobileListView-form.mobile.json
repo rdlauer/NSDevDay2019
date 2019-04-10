@@ -1,0 +1,734 @@
+{
+    "actionBar": true,
+    "actionBarTitle": "",
+    "annotations": {
+        "dataSources": {
+            "name": "dataSourceName"
+        }
+    },
+    "authorization": {
+        "allowedRoles": []
+    },
+    "children": [
+        {
+            "absoluteLayout": {},
+            "appearanceStyles": {
+                "backgroundColor": null,
+                "color": null
+            },
+            "autoGenerate": "",
+            "boxStyles": {
+                "margin": "",
+                "padding": "",
+                "size": {
+                    "height": "",
+                    "width": ""
+                }
+            },
+            "children": [
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {
+                        "col": null,
+                        "colSpan": null,
+                        "row": 0,
+                        "rowSpan": null
+                    },
+                    "id": "mobilelabel0",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "text": "Id",
+                    "textWrap": false,
+                    "type": "mobile-label",
+                    "uniqueID": "38f6fb09-4303-458f-844b-1134b4611106"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "date": "{{ '01/01/2019' }}",
+                    "dockLayout": {},
+                    "documentDataSource": "",
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "formControlName": "_id",
+                    "gridLayout": {
+                        "col": null,
+                        "colSpan": null,
+                        "row": 1,
+                        "rowSpan": null
+                    },
+                    "id": "mobiledatepicker0",
+                    "pickerCancelText": "Cancel",
+                    "pickerOkText": "Ok",
+                    "pickerTitle": "",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "type": "mobile-date-picker",
+                    "uniqueID": "72cc1956-56a1-493f-8e9d-f7e329492be9"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {
+                        "col": null,
+                        "colSpan": null,
+                        "row": 2,
+                        "rowSpan": null
+                    },
+                    "id": "mobilelabel1",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "text": "Name",
+                    "textWrap": false,
+                    "type": "mobile-label",
+                    "uniqueID": "fc08bc31-4ca9-4768-a1ec-e018b0317028"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "autocorrect": false,
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "documentDataSource": "",
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "formControlName": "name",
+                    "gridLayout": {
+                        "col": null,
+                        "colSpan": null,
+                        "row": 3,
+                        "rowSpan": null
+                    },
+                    "hint": "",
+                    "id": "mobiletextfield0",
+                    "keyboardType": "",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "secure": false,
+                    "text": "",
+                    "type": "mobile-text-field",
+                    "uniqueID": "17687db5-7b07-45f3-921b-01a15f9b9e10"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {
+                        "col": null,
+                        "colSpan": null,
+                        "row": 4,
+                        "rowSpan": null
+                    },
+                    "id": "mobilelabel2",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "text": "Date",
+                    "textWrap": false,
+                    "type": "mobile-label",
+                    "uniqueID": "7be8a94b-9039-4525-be75-4f1f54204d04"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "date": "{{ '01/01/2019' }}",
+                    "dockLayout": {},
+                    "documentDataSource": "",
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "formControlName": "date",
+                    "gridLayout": {
+                        "col": null,
+                        "colSpan": null,
+                        "row": 5,
+                        "rowSpan": null
+                    },
+                    "id": "mobiledatepicker1",
+                    "pickerCancelText": "Cancel",
+                    "pickerOkText": "Ok",
+                    "pickerTitle": "",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "type": "mobile-date-picker",
+                    "uniqueID": "13b99678-0a70-44c2-9c2e-cd3a1f2e113c"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {
+                        "col": null,
+                        "colSpan": null,
+                        "row": 6,
+                        "rowSpan": null
+                    },
+                    "id": "mobilelabel3",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "text": "Vehicle",
+                    "textWrap": false,
+                    "type": "mobile-label",
+                    "uniqueID": "ffacd870-72f1-4e19-9f41-7c8d8e6ef543"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "autocorrect": false,
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "documentDataSource": "",
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "formControlName": "vehicle",
+                    "gridLayout": {
+                        "col": null,
+                        "colSpan": null,
+                        "row": 7,
+                        "rowSpan": null
+                    },
+                    "hint": "",
+                    "id": "mobiletextfield1",
+                    "keyboardType": "",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "secure": false,
+                    "text": "",
+                    "type": "mobile-text-field",
+                    "uniqueID": "e5963118-fd7c-4b4f-a9fc-0ea551c36001"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {
+                        "col": null,
+                        "colSpan": null,
+                        "row": 8,
+                        "rowSpan": null
+                    },
+                    "id": "mobilelabel4",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "text": "Image",
+                    "textWrap": false,
+                    "type": "mobile-label",
+                    "uniqueID": "c925ee01-d86e-4730-ad34-a3a68df47294"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "autocorrect": false,
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "documentDataSource": "",
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "formControlName": "image",
+                    "gridLayout": {
+                        "col": null,
+                        "colSpan": null,
+                        "row": 9,
+                        "rowSpan": null
+                    },
+                    "hint": "",
+                    "id": "mobiletextfield2",
+                    "keyboardType": "",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "secure": false,
+                    "text": "",
+                    "type": "mobile-text-field",
+                    "uniqueID": "30430e48-c7eb-42de-a687-389f4e378c93"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {
+                        "col": null,
+                        "colSpan": null,
+                        "row": 10,
+                        "rowSpan": null
+                    },
+                    "id": "mobilelabel5",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "text": "Description",
+                    "textWrap": false,
+                    "type": "mobile-label",
+                    "uniqueID": "bdb125ab-1cc7-4248-91fd-0d9e41959a95"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "autocorrect": false,
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "documentDataSource": "",
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "formControlName": "description",
+                    "gridLayout": {
+                        "col": null,
+                        "colSpan": null,
+                        "row": 11,
+                        "rowSpan": null
+                    },
+                    "hint": "",
+                    "id": "mobiletextfield3",
+                    "keyboardType": "",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "secure": false,
+                    "text": "",
+                    "type": "mobile-text-field",
+                    "uniqueID": "d27f8ad0-2860-4138-a80b-d1da94ba217a"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {
+                        "col": null,
+                        "colSpan": null,
+                        "row": 12,
+                        "rowSpan": null
+                    },
+                    "id": "mobilelabel6",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "text": "Policynumber",
+                    "textWrap": false,
+                    "type": "mobile-label",
+                    "uniqueID": "28b2522d-d50b-451f-bcb0-4ee6e3ea39d7"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "autocorrect": false,
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "documentDataSource": "",
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "formControlName": "policynumber",
+                    "gridLayout": {
+                        "col": null,
+                        "colSpan": null,
+                        "row": 13,
+                        "rowSpan": null
+                    },
+                    "hint": "",
+                    "id": "mobiletextfield4",
+                    "keyboardType": "",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "secure": false,
+                    "text": "",
+                    "type": "mobile-text-field",
+                    "uniqueID": "3fb6d731-97fe-4546-9043-4cbbee968fec"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {
+                        "col": null,
+                        "colSpan": null,
+                        "row": 14,
+                        "rowSpan": null
+                    },
+                    "id": "mobilelabel7",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "text": "Type",
+                    "textWrap": false,
+                    "type": "mobile-label",
+                    "uniqueID": "ed0c6977-356d-405b-94c7-1d9310c82ee5"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "autocorrect": false,
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "documentDataSource": "",
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "formControlName": "type",
+                    "gridLayout": {
+                        "col": null,
+                        "colSpan": null,
+                        "row": 15,
+                        "rowSpan": null
+                    },
+                    "hint": "",
+                    "id": "mobiletextfield5",
+                    "keyboardType": "",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "secure": false,
+                    "text": "",
+                    "type": "mobile-text-field",
+                    "uniqueID": "6dd3e69c-7850-465e-9069-b3e01f2d1485"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {
+                        "col": null,
+                        "colSpan": null,
+                        "row": 16,
+                        "rowSpan": null
+                    },
+                    "id": "mobilelabel8",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "text": "Status",
+                    "textWrap": false,
+                    "type": "mobile-label",
+                    "uniqueID": "43b19283-45db-4639-b435-cadbe5952314"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "autocorrect": false,
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "documentDataSource": "",
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "formControlName": "status",
+                    "gridLayout": {
+                        "col": null,
+                        "colSpan": null,
+                        "row": 17,
+                        "rowSpan": null
+                    },
+                    "hint": "",
+                    "id": "mobiletextfield6",
+                    "keyboardType": "",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "secure": false,
+                    "text": "",
+                    "type": "mobile-text-field",
+                    "uniqueID": "53b2062f-5284-400b-bcb3-2c7138689d52"
+                }
+            ],
+            "classList": "",
+            "dockLayout": {},
+            "documentDataSource": "ClaimsForm",
+            "flexboxLayout": {
+                "alignSelf": "stretch",
+                "flexWrapBefore": false
+            },
+            "formGroupName": "",
+            "gridConfig": {
+                "columns": "*, *",
+                "rows": "*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*"
+            },
+            "gridLayout": {
+                "col": null,
+                "colSpan": null,
+                "row": null,
+                "rowSpan": null
+            },
+            "id": "mobileform0",
+            "platform": "mobile",
+            "schemaVersion": "1.0",
+            "type": "mobile-form",
+            "uniqueID": "4bec64d8-d726-4270-b5ad-dc0638227371"
+        }
+    ],
+    "dataSources": [
+        {
+            "batch": true,
+            "dataProviderName": "DefaultDataProvider",
+            "dataSourceName": "Claims",
+            "filterDataSource": false,
+            "name": "ClaimsForm",
+            "pageSize": 20,
+            "singleDocument": true,
+            "uniqueID": "3f18e37f-f87b-471e-bbfa-03d821890a68"
+        }
+    ],
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "hidden": false,
+    "name": "MobileListView-form",
+    "platform": "mobile",
+    "schemaVersion": "1.0",
+    "type": "view",
+    "uniqueID": "c9ad8d4c-3307-4823-a7b6-d2c319d5d57c",
+    "viewType": "mobile-blank"
+}

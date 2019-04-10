@@ -26,6 +26,12 @@ const routes: Routes = [
                 outlet: 'systemHomeTab',
                 component: NSEmptyOutletComponent,
                 loadChildren: '@src/app/modules/system/system.module#SystemModule'
+            },
+            {
+                path: 'claims',
+                outlet: 'claimsMobileListViewTab',
+                component: NSEmptyOutletComponent,
+                loadChildren: '@src/app/modules/claims/claims.module#ClaimsModule'
             }
         ]
     },

@@ -1,0 +1,36 @@
+{
+    "actionBar": true,
+    "actionBarNewButton": true,
+    "actionBarNewButtonText": "New",
+    "actionBarTitle": "",
+    "authorization": {
+        "allowedRoles": []
+    },
+    "dataProvider": "DefaultDataProvider",
+    "dataSource": "Claims",
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "image": "image",
+    "name": "MobileListView",
+    "navigateOnItemTap": {
+        "module": "claims",
+        "parameter": "",
+        "view": "mobile-list-view-form"
+    },
+    "navigateOnNewTap": {
+        "parameter": ""
+    },
+    "pageSize": 20,
+    "platform": "mobile",
+    "schemaVersion": "1.0",
+    "searchable": false,
+    "secondLine": "name",
+    "swipeable": false,
+    "title": "vehicle",
+    "type": "view",
+    "uniqueID": "c9bd855c-8f9b-4053-b7f1-0e97bc6164bd",
+    "viewType": "mobile-single-column-cards-list-view"
+}

@@ -1,0 +1,30 @@
+<!--
+Auto-generated
+Do not edit!!!
+-->
+<ActionBar title="">
+</ActionBar>
+
+<ng-container *ngIf="{ claimsForm: $claimsFormService.dataChanges | async } as $data">
+    <ks-form #mobileform0 [dataService]="$claimsFormService" [formGroup]="ClaimsFormFormGroup" [columns]="'*, *'" [rows]="'*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*'"
+        class="custom-page">
+        <Label text="Id" textWrap="false" row="0"></Label>
+        <DatePickerField row="1" formControlName="_id"></DatePickerField>
+        <Label text="Name" textWrap="false" row="2"></Label>
+        <TextField hint="" secure="false" autocorrect="false" row="3" formControlName="name"></TextField>
+        <Label text="Date" textWrap="false" row="4"></Label>
+        <DatePickerField row="5" formControlName="date"></DatePickerField>
+        <Label text="Vehicle" textWrap="false" row="6"></Label>
+        <TextField hint="" secure="false" autocorrect="false" row="7" formControlName="vehicle"></TextField>
+        <Label text="Image" textWrap="false" row="8"></Label>
+        <TextField hint="" secure="false" autocorrect="false" row="9" formControlName="image"></TextField>
+        <Label text="Description" textWrap="false" row="10"></Label>
+        <TextField hint="" secure="false" autocorrect="false" row="11" formControlName="description"></TextField>
+        <Label text="Policynumber" textWrap="false" row="12"></Label>
+        <TextField hint="" secure="false" autocorrect="false" row="13" formControlName="policynumber"></TextField>
+        <Label text="Type" textWrap="false" row="14"></Label>
+        <TextField hint="" secure="false" autocorrect="false" row="15" formControlName="type"></TextField>
+        <Label text="Status" textWrap="false" row="16"></Label>
+        <TextField hint="" secure="false" autocorrect="false" row="17" formControlName="status"></TextField>
+        </ks-form>
+</ng-container>

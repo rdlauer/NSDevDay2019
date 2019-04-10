@@ -27,7 +27,8 @@ export class AppTabsComponent implements AfterViewInit {
 
     ngAfterViewInit(): void {
         const outlets = {
-            systemHomeTab: ['system', 'home']
+            systemHomeTab: ['system', 'home'],
+            claimsMobileListViewTab: ['claims', 'mobile-list-view']
         };
 
         this.navigationService.navigate([{ outlets }], { relativeTo: this.activatedRoute });
